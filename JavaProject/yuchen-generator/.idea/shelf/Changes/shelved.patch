@@ -1,0 +1,180 @@
+Index: ../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysRoleMenuMapper.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysRoleMenuMapper.xml b/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysRoleMenuMapper.xml
+new file mode 100644
+--- /dev/null	(date 1634205786253)
++++ b/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysRoleMenuMapper.xml	(date 1634205786253)
+@@ -0,0 +1,49 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.central.user.mapper.SysRoleMenuMapper">
++
++	<update id="deleteRoleMenu">
++		delete from sys_role_menu
++		<where>
++			<if test="roleId != null">
++				and role_id = #{roleId}
++			</if>
++			<if test="menuId != null">
++				and menu_id = #{menuId}
++			</if>
++		</where>
++	</update>
++
++	<select id="findMenusByRoleIds" resultType="com.central.common.model.SysMenu">
++		select distinct t.* from sys_menu t
++		inner join sys_role_menu r on r.menu_id = t.id
++		where
++		r.role_id in
++		<foreach collection="roleIds" index="index" item="roleId"
++			open="(" separator="," close=")">
++			#{roleId}
++		</foreach>
++		<if test="type != null">
++			and t.type = #{type}
++		</if>
++		ORDER BY sort ASC
++	</select>
++
++    <select id="findMenusByRoleCodes" resultType="com.central.common.model.SysMenu">
++		select distinct t.* from sys_menu t
++		inner join sys_role_menu r on r.menu_id = t.id
++		inner join sys_role rl on rl.id = r.role_id
++		where
++		rl.code in
++		<foreach collection="roleCodes" index="index" item="roleCode"
++				 open="(" separator="," close=")">
++			#{roleCode}
++		</foreach>
++		<if test="type != null">
++			and t.type = #{type}
++		</if>
++		and t.hidden = 0
++		ORDER BY sort ASC
++	</select>
++</mapper>
+\ No newline at end of file
+Index: ../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysUserMapper.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysUserMapper.xml b/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysUserMapper.xml
+new file mode 100644
+--- /dev/null	(date 1632438017000)
++++ b/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysUserMapper.xml	(date 1632438017000)
+@@ -0,0 +1,43 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.central.user.mapper.SysUserMapper">
++	<sql id="where">
++		<where>
++			t.is_del=0
++			<if test="u.id != null and u.id != ''">
++				and t.id like concat('%', #{u.id}, '%')
++			</if>
++			<if test="u.username != null and u.username != ''">
++				and t.username like concat('%', #{u.username}, '%')
++			</if>
++			<if test="u.nickname != null and u.nickname != ''">
++				and t.nickname like concat('%', #{u.nickname}, '%')
++			</if>
++			<if test="u.enabled != null and u.enabled != ''">
++				and t.enabled = #{u.enabled}
++			</if>
++			<if test="u.type != null and u.type != ''">
++				and t.type = #{u.type}
++			</if>
++			<if test="u.searchKey != null and u.searchKey != '' and u.searchKey=='user_id'">
++				and t.id  like concat('%', #{u.searchValue}, '%')
++			</if>
++			<if test="u.searchKey != null and u.searchKey != '' and u.searchKey=='username'">
++				and t.username  like concat('%', #{u.searchValue}, '%')
++			</if>
++			<if test="u.searchKey != null and u.searchKey != '' and u.searchKey=='nick_name'">
++				and t.nickname  like concat('%', #{u.searchValue}, '%')
++			</if>
++			<if test="u.searchKey != null and u.searchKey != '' and u.searchKey=='mobile'">
++				and t.mobile  like concat('%', #{u.searchValue}, '%')
++			</if>
++		</where>
++	</sql>
++
++	<select id="findList" resultType="com.central.common.model.SysUser">
++		select * from sys_user t
++		<include refid="where" />
++		order by t.id desc
++	</select>
++</mapper>
+\ No newline at end of file
+Index: ../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysMenuMapper.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysMenuMapper.xml b/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysMenuMapper.xml
+new file mode 100644
+--- /dev/null	(date 1632438017000)
++++ b/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysMenuMapper.xml	(date 1632438017000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.central.user.mapper.SysMenuMapper">
++
++</mapper>
+\ No newline at end of file
+Index: ../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysRoleMapper.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysRoleMapper.xml b/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysRoleMapper.xml
+new file mode 100644
+--- /dev/null	(date 1632438017000)
++++ b/../yuchen-microservices-platform/yuchen-business/user-center/src/main/resources/mapper/SysRoleMapper.xml	(date 1632438017000)
+@@ -0,0 +1,38 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.central.user.mapper.SysRoleMapper">
++	<sql id="Column_List">
++			id,
++			code,
++			name,
++			create_time,
++			update_time,
++			tenant_id
++	</sql>
++
++	<sql id="where">
++		<where>
++			<if test="r.name != null and r.name != ''">
++				and t.name like concat('%', #{r.name}, '%')
++			</if>
++
++			<if test="r.searchKey != null and r.searchKey != '' and r.searchKey=='name'">
++				and t.name like concat('%', #{r.searchValue}, '%')
++			</if>
++		</where>
++	</sql>
++
++	<select id="findList" resultType="com.central.common.model.SysRole">
++		select <include refid="Column_List"/>
++		from sys_role t
++		<include refid="where" />
++		order by t.create_time desc
++	</select>
++
++	<select id="findAll" resultType="com.central.common.model.SysRole">
++		select <include refid="Column_List"/>
++		from sys_role
++		order by create_time desc
++	</select>
++</mapper>
+\ No newline at end of file

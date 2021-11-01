@@ -1,0 +1,18 @@
+16:49:27.743 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 1072 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:49:27.759 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:49:34.378 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 7.454 seconds (JVM running for 11.697)
+16:49:35.014 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:50:11.439 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 12008 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:50:11.459 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:50:17.283 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 6.572 seconds (JVM running for 9.365)
+16:50:17.830 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:50:18.180 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:51:27.137 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:51:27.188 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:53:38.745 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 6244 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:53:38.756 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:53:44.672 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 6.6 seconds (JVM running for 9.498)
+16:53:45.179 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:53:45.517 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:54:25.663 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:54:25.725 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.

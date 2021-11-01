@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e9723a4-19d5-48aa-8891-6a4e67659698" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/../JavaDemo/ClientManagement/src/com/yuchen/service/CustomerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaDemo/TeamWork/TeamWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/mbg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/java/com/yuchen/crud/bean/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/java/com/yuchen/crud/bean/DepartmentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/java/com/yuchen/crud/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/java/com/yuchen/crud/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/java/com/yuchen/crud/dao/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/java/com/yuchen/crud/dao/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/java/com/yuchen/crud/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/java/com/yuchen/crud/test/MBGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/resources/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/target/classes/com/yuchen/crud/test/MBGTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMDemo/ssm_crud/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/Bootstrap_demo/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPProject/target/classes/com/yuchen/utils/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPProject/target/classes/com/yuchen/utils/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MPTest/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/MongoDB/sizeStorer.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/mybatis-plus-code-generator/src/main/resources/static/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_web_starter_1_4_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_crazycake_shiro_redis_spring_boot_starter_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/src/main/java/com/yuchen/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootDemo/yuchenblog/target/surefire-reports/TEST-com.yuchen.YuchenblogApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_config_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_web_servlet_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_github_openfeign_feign_core_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/cloud-api-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/cloud-consumers-order80/target/classes/com/yuchen/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/cloud-eureka-server7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudDemo/springcloud/coludalibaba-consumer-nacos-order83/target/classes/com/yuchen/springcloud/OrderMain83.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-generator/yuchen-generator/src/main/java/com/yuchen/generator/builder/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/image_Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/error.2021-10-28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/error.2021-10-29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.2021-10-28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.2021-10-29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.2021-10-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/YuChenGenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/config/GenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/controller/GenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/domain/GenTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/domain/GenTableColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/mapper/GenTableColumnMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/mapper/GenTableMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/mapper/QueryTableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/IGenTableColumnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/IGenTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/impl/GenTableColumnServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/impl/GenTableServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/GenConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/GenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/HttpStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/VelocityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/VelocityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GenTableColumnMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GenTableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/sub-domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/js/api.js.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/sql/sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/vue/index-tree.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/vue/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/xml/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuchen/generator/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/YuChenGenApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/config/GenConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/controller/GenController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/domain/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/domain/GenTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/domain/GenTableColumn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/mapper/GenTableColumnMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/mapper/GenTableMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/mapper/QueryTableInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/IGenTableColumnService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/IGenTableService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/impl/GenTableColumnServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/impl/GenTableServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/AjaxResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/GenConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/GenUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/HttpStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/VelocityInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/VelocityUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/GenTableColumnMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/GenTableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/sub-domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/js/api.js.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/sql/sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/vue/index-tree.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/vue/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/vm/xml/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/yuchen/generator/TestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-admin/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-admin/src/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-admin/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-admin/src/views/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-admin/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-site/assets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/ansi-regex/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-helper-define-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-helper-define-map/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-helper-hoist-variables/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-plugin-check-es2015-constants/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-plugin-check-es2015-constants/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-plugin-transform-es2015-block-scoping/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-plugin-transform-es2015-classes/lib/vanilla.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-plugin-transform-es2015-computed-properties/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-plugin-transform-es2015-modules-amd/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-plugin-transform-es2015-parameters/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-plugin-transform-es2015-typeof-symbol/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/array/find-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/math/sign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/math/trunc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/number/is-finite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/object/get-own-property-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/reflect/get-metadata-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/reflect/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/regexp/escape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/string/code-point-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/string/trim-start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/symbol/has-instance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/core-js/symbol/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-runtime/helpers/_object-destructuring-empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-traverse/lib/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-traverse/lib/path/lib/removal-hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-traverse/lib/path/replacement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/babel-types/lib/definitions/experimental.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/colorette/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/core/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/es6/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/es7/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/array/find-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/array/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/array/reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/number/epsilon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/object/define-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/object/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/reflect/get-metadata-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/string/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/string/includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/fn/symbol/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/core/_.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/es6/parse-float.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/es7/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/es7/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/array/concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/asap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/date/to-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/dom-collections/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/map/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/number/to-precision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/object/define.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/object/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/reflect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/regexp/to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/string/code-point-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/string/fontcolor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/symbol/split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/typed/int8-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/fn/weak-set/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/_date-to-iso-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/_defined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/_string-repeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/_task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/es6.math.log1p.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/es6.number.epsilon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/es6.set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/es6.typed.uint8-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/es7.math.degrees.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/es7.math.signbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/es7.math.umulh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/modules/es7.object.define-setter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/stage/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/library/web/dom-collections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/_fix-re-wks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/_flatten-into-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/_function-to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/_to-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/_to-primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/core.regexp.escape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es6.array.reduce-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es6.number.is-finite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es6.object.set-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es6.string.includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es6.string.italics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es6.string.link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es6.string.repeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es7.map.of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/es7.set.of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/library/_add-to-unscopables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/library/_regexp-exec-abstract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/library/_set-species.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/library/es6.regexp.constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/modules/library/es6.regexp.flags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/stage/0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/core-js/web/dom-collections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/css-loader/dist/plugins/postcss-import-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/css-loader/dist/runtime/sourceMaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/esutils/lib/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/has-ansi/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/icss-utils/src/replaceSymbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/js-tokens/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_Promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_baseAssign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_baseDelay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_baseEvery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_baseHas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_baseLodash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_basePullAt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_castRest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_hashSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_insertWrapDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_isFlattenable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/_reorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/conformsTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/defaultsDeep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/findIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/findLastKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/complement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/cond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/convert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/findIndexFrom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/findKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/flatMapDepth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/flattenDepth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/identical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/invertObj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/isFinite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/lte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/partial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/snakeCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/sortedUniq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/toPlainObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/trim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/fp/zipObjectDeep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/identity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/isWeakMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/unionWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/lodash/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/loose-envify/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/postcss-modules-extract-imports/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/postcss-modules-local-by-default/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/postcss-selector-parser/dist/__tests__/postcss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/postcss-selector-parser/dist/selectors/className.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/postcss-selector-parser/dist/selectors/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/postcss-selector-parser/dist/selectors/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/postcss/lib/list.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/regenerator-transform/lib/visit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/regexpu-core/LICENSE-MIT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/regjsgen/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/semver/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/semver/functions/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/modeldemo/node_modules/semver/functions/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/npmdemo/node_modules/jquery/src/ajax/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/npmdemo/node_modules/jquery/src/attributes/prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/npmdemo/node_modules/jquery/src/data/var/dataPriv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/npmdemo/node_modules/jquery/src/deprecated/ajax-event-alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/npmdemo/node_modules/jquery/src/manipulation/getAll.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../.." source="yuchen-generator" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\JavaLib\MavenRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../JavaLib/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\JavaLib\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="205DBAyRXT0G3GXQNTiGvWyL8GC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Files\JavaProject\yuchen-generator\src\main\java\com\yuchen\generator\util" />
+      <recent name="D:\Files\JavaProject\yuchen-generator\src\main\java\com\yuchen\generator\domain" />
+      <recent name="D:\Files\JavaProject\yuchen-generator\src\main\resources" />
+      <recent name="D:\Files\JavaProject\yuchen-generator\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Files\JavaProject\yuchen-generator\src\main\resources\mapper" />
+      <recent name="D:\Files\JavaProject\yuchen-generator\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.YuChenGenApplication">
+    <configuration name="TestMapper.tesstUpsate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yuchen-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuchen.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuchen.generator" />
+      <option name="MAIN_CLASS_NAME" value="com.yuchen.generator.TestMapper" />
+      <option name="METHOD_NAME" value="tesstUpsate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapper.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yuchen-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuchen.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuchen.generator" />
+      <option name="MAIN_CLASS_NAME" value="com.yuchen.generator.TestMapper" />
+      <option name="METHOD_NAME" value="testGenerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapper.testTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yuchen-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuchen.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuchen.generator" />
+      <option name="MAIN_CLASS_NAME" value="com.yuchen.generator.TestMapper" />
+      <option name="METHOD_NAME" value="testTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapper.testTableColumn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yuchen-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuchen.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yuchen.generator" />
+      <option name="MAIN_CLASS_NAME" value="com.yuchen.generator.TestMapper" />
+      <option name="METHOD_NAME" value="testTableColumn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YuChenGenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yuchen-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuchen.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuchen.generator.YuChenGenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.YuChenGenApplication" />
+        <item itemvalue="JUnit.TestMapper.testTableColumn" />
+        <item itemvalue="JUnit.TestMapper.testTable" />
+        <item itemvalue="JUnit.TestMapper.testGenerator" />
+        <item itemvalue="JUnit.TestMapper.tesstUpsate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yuche\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e9723a4-19d5-48aa-8891-6a4e67659698" name="Changes" comment="" />
+      <created>1635325418751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635325418751</updated>
+      <workItem from="1635325420452" duration="2300000" />
+      <workItem from="1635383290919" duration="9363000" />
+      <workItem from="1635413097412" duration="3782000" />
+      <workItem from="1635474566051" duration="16156000" />
+      <workItem from="1635648601199" duration="11984000" />
+      <workItem from="1635735409606" duration="647000" />
+      <workItem from="1635736078346" duration="183000" />
+      <workItem from="1635736278453" duration="3786000" />
+      <workItem from="1635747291252" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="yuchen-generator" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="yuchen-generator" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="first test" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/yuchen_generator$TestMapper_testTableColumn.ic" NAME="TestMapper.testTableColumn Coverage Results" MODIFIED="1635494596670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yuchen.generator.*</FILTER>
+    </SUITE>
+  </component>
+</project>

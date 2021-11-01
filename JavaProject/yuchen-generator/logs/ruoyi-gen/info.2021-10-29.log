@@ -1,0 +1,398 @@
+11:00:57.408 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 8000 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:00:57.415 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:00:58.456 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:00:58.457 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:00:58.457 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:00:58.459 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:00:58.459 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:00:58.459 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:00:58.463 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:00:58.550 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:00:59.457 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:00:59.475 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.458 seconds (JVM running for 3.463)
+11:01:31.760 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:01:40.658 [http-nio-8080-exec-4] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:01:40.950 [http-nio-8080-exec-4] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:02:26.898 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:02:26.908 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:02:30.136 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 9228 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:02:30.142 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:02:31.105 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:02:31.105 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:02:31.105 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:02:31.106 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:02:31.108 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:02:31.108 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:02:31.110 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:02:31.189 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:02:32.036 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:02:32.055 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.264 seconds (JVM running for 3.099)
+11:02:36.262 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:02:36.323 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:02:36.424 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:03:46.647 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:03:46.659 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:24:23.012 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16232 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:24:23.021 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:24:26.743 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.197 seconds (JVM running for 7.145)
+11:24:27.419 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:24:27.747 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:24:43.225 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:24:43.244 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:27:41.801 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 8948 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:27:41.806 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:27:45.249 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.98 seconds (JVM running for 5.814)
+11:27:45.765 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:27:45.956 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:34:36.660 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:34:36.680 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:34:46.908 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 12180 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:34:46.912 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:34:50.567 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.163 seconds (JVM running for 6.59)
+11:34:51.282 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:34:51.562 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:35:01.839 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:35:01.855 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:38:02.020 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 3780 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:38:02.024 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:38:05.291 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.718 seconds (JVM running for 5.389)
+11:38:05.585 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:38:05.814 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:38:16.752 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:38:16.775 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+14:38:10.397 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15188 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+14:38:10.405 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:40:40.432 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 13436 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+14:40:40.437 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:41:14.067 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 2808 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+14:41:14.070 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:44:53.803 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15192 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+14:44:53.810 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:50:49.451 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15732 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+14:50:49.455 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:50:52.074 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 2.987 seconds (JVM running for 4.201)
+14:50:52.339 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+14:50:52.544 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+14:50:52.631 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+14:50:52.642 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+14:51:14.733 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 3164 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+14:51:14.737 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:51:17.317 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 2.969 seconds (JVM running for 4.14)
+14:51:17.525 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+14:51:17.694 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+14:51:17.782 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+14:51:17.791 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+14:58:09.144 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 6388 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+14:58:09.150 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+14:58:11.981 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.216 seconds (JVM running for 4.972)
+14:58:12.231 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+14:58:12.426 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+14:58:12.578 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+14:58:12.594 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:01:02.870 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14812 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+15:01:02.876 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:01:06.337 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.924 seconds (JVM running for 5.476)
+15:01:06.626 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+15:01:06.868 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+15:01:39.310 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:01:39.339 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:04:17.706 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14116 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+15:04:17.711 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:04:20.522 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.15 seconds (JVM running for 4.308)
+15:04:20.774 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+15:04:20.974 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+15:04:21.129 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:04:21.145 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:05:48.017 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 9244 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+15:05:48.022 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:05:51.024 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.362 seconds (JVM running for 4.517)
+15:05:51.321 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+15:05:51.537 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+15:05:51.795 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:05:51.808 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:27:39.366 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 5384 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+15:27:39.374 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:27:42.805 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.922 seconds (JVM running for 5.639)
+15:27:43.160 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+15:27:43.390 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+15:27:43.569 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:27:43.592 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:28:18.584 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 13076 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+15:28:18.589 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:28:21.968 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.814 seconds (JVM running for 5.445)
+15:28:22.331 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+15:28:22.577 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+15:28:22.759 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:28:22.777 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:28:33.359 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16200 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+15:28:33.365 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:28:36.982 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.119 seconds (JVM running for 5.823)
+15:28:37.346 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+15:28:37.636 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+15:29:22.756 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:29:22.772 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+15:35:54.330 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16280 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+15:35:54.338 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+15:35:57.994 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.137 seconds (JVM running for 5.92)
+15:35:58.327 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+15:35:58.579 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+15:36:13.005 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+15:36:13.028 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:02:13.832 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 10756 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:02:13.836 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:02:17.423 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.06 seconds (JVM running for 5.942)
+16:02:38.111 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 7844 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:02:38.119 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:02:41.603 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.047 seconds (JVM running for 5.635)
+16:03:18.759 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 6688 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:03:18.766 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:03:22.452 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 13708 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:03:22.461 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:03:28.795 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14984 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:03:28.801 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:03:32.403 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.135 seconds (JVM running for 5.958)
+16:03:32.721 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:03:32.951 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:04:03.658 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:04:03.675 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:05:12.773 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 5772 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:05:12.780 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:05:16.179 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.871 seconds (JVM running for 5.748)
+16:05:16.467 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:05:16.688 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:08:24.563 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:08:24.588 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:10:39.727 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 9780 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:10:39.732 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:10:42.524 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.404 seconds (JVM running for 4.726)
+16:10:42.743 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:10:42.925 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:10:43.104 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:10:43.118 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:11:39.340 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 696 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:11:39.346 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:11:42.823 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.905 seconds (JVM running for 5.464)
+16:11:43.105 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:11:43.280 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:12:07.299 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:12:07.314 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:12:21.681 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 7004 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:12:21.690 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:12:25.994 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.789 seconds (JVM running for 6.699)
+16:12:26.333 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:12:26.625 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:15:15.682 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:15:15.728 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:15:22.078 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 11884 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:15:22.088 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:15:25.891 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.427 seconds (JVM running for 6.22)
+16:15:26.218 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:15:26.413 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:15:28.442 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:15:28.454 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:17:09.040 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 1736 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:17:09.048 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:17:13.385 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.888 seconds (JVM running for 6.857)
+16:17:13.747 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:17:14.015 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:17:45.189 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:17:45.206 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:19:15.762 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15336 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:19:15.770 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:19:19.351 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.148 seconds (JVM running for 5.922)
+16:19:19.698 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:19:19.970 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:19:22.528 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:19:22.548 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:23:09.078 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16728 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:23:09.084 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:23:12.447 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.81 seconds (JVM running for 5.512)
+16:23:12.827 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:23:13.066 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:23:13.247 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:23:13.261 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:29:33.324 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 10988 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:29:33.328 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:29:36.663 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.782 seconds (JVM running for 5.312)
+16:29:37.012 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:29:37.237 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:29:37.418 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:29:37.436 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:31:18.239 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15268 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:31:18.246 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:31:21.544 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.766 seconds (JVM running for 5.335)
+16:31:21.886 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:31:22.056 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:31:24.635 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:31:24.649 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:31:37.825 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14800 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:31:37.832 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:31:41.227 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.867 seconds (JVM running for 5.59)
+16:31:41.610 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:31:41.819 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:32:02.675 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 17124 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:32:02.681 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:32:06.027 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.794 seconds (JVM running for 5.579)
+16:32:06.408 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:32:06.735 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:32:12.965 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:32:12.977 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:32:20.358 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:32:20.380 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:32:23.731 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 13664 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:32:23.739 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:32:26.827 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.552 seconds (JVM running for 5.088)
+16:32:27.095 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:32:27.271 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:32:27.372 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:32:27.383 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:35:18.703 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 13512 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:35:18.707 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:35:19.632 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:35:19.633 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:35:19.633 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:35:19.634 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+16:35:19.635 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:35:19.635 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:35:19.641 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:35:19.719 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:35:20.778 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:35:20.797 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.848 seconds (JVM running for 4.391)
+16:35:37.772 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:36:34.135 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 9748 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:36:34.140 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:36:35.042 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:36:35.043 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:36:35.043 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:36:35.044 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+16:36:35.044 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:36:35.044 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:36:35.047 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:36:35.130 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:36:36.054 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:36:36.071 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.364 seconds (JVM running for 3.285)
+16:36:58.078 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:36:58.146 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:36:58.244 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:19:25.977 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:19:25.982 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:22:18.572 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 3688 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:22:18.576 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:22:19.485 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:22:19.486 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:22:19.486 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+17:22:19.487 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+17:22:19.488 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17:22:19.488 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:22:19.491 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+17:22:19.573 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:22:20.622 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:22:20.649 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.537 seconds (JVM running for 3.802)
+17:22:24.400 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:22:24.454 [http-nio-8080-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:22:24.586 [http-nio-8080-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:23:20.289 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14780 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:23:20.295 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:23:24.073 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.337 seconds (JVM running for 5.798)
+17:23:24.476 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:23:24.712 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:23:25.051 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:23:25.072 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:23:43.601 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14468 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:23:43.608 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:23:47.021 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.914 seconds (JVM running for 5.693)
+17:23:50.874 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:23:51.115 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:24:18.914 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:24:18.925 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:24:32.823 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14032 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:24:32.827 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:24:37.253 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.959 seconds (JVM running for 7.13)
+17:24:37.603 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:24:37.806 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:25:48.340 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:25:48.359 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:25:58.085 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 5784 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:25:58.089 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:26:01.607 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.019 seconds (JVM running for 5.812)
+17:26:01.974 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:26:02.202 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:26:55.874 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:26:55.883 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:27:26.272 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 1864 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:27:26.277 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:27:29.581 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.741 seconds (JVM running for 5.518)
+17:27:29.914 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:27:30.121 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:30:04.621 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:30:04.637 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:30:08.840 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 17348 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:30:08.845 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:30:12.282 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.893 seconds (JVM running for 6.94)
+17:30:12.900 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:30:13.112 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:31:15.830 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:31:15.846 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:31:15.870 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:31:15.879 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:47:05.368 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 17332 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:47:05.376 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:47:09.211 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.392 seconds (JVM running for 6.244)
+17:47:09.577 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:47:09.810 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:47:56.671 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 17112 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:47:56.676 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:47:59.996 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.751 seconds (JVM running for 5.409)
+17:48:00.348 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:48:00.545 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:49:28.546 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:49:28.562 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:52:39.632 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16432 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:52:39.640 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:52:43.192 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.022 seconds (JVM running for 5.761)
+17:52:43.558 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:52:43.796 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:52:45.153 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:52:45.171 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:59:00.364 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14884 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+17:59:00.369 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+17:59:03.930 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.033 seconds (JVM running for 5.733)
+17:59:04.266 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:59:04.445 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:59:15.192 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:59:15.211 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+18:00:19.371 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16800 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+18:00:19.375 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:00:22.764 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.836 seconds (JVM running for 5.482)
+18:00:23.072 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+18:00:23.306 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+18:00:37.711 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+18:00:37.731 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+18:01:18.185 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 2024 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+18:01:18.190 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:01:21.434 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.7 seconds (JVM running for 5.209)
+18:01:21.778 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+18:01:22.039 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+18:01:35.937 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+18:01:35.960 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+18:03:21.724 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15748 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+18:03:21.730 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:03:24.967 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.671 seconds (JVM running for 4.913)
+18:03:25.234 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+18:03:25.411 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+18:03:25.617 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+18:03:25.645 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+18:04:55.042 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16112 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+18:04:55.051 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:04:57.939 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.395 seconds (JVM running for 4.706)
+18:04:58.185 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+18:04:58.380 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+18:04:58.630 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+18:04:58.646 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+18:05:57.116 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15292 (started by yuche in D:\Files\JavaProject\yuchen-generator)
+18:05:57.123 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+18:06:00.839 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.182 seconds (JVM running for 5.718)
+18:06:01.749 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+18:06:01.992 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+18:06:02.346 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+18:06:02.390 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
