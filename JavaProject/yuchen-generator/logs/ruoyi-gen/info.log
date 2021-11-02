@@ -1,105 +1,588 @@
-09:31:46.402 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 8760 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-09:31:46.408 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-09:31:50.381 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.446 seconds (JVM running for 6.337)
-09:31:50.721 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-09:31:50.973 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-09:31:51.153 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-09:31:51.170 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-09:35:59.842 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15840 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-09:35:59.848 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-09:36:03.302 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.885 seconds (JVM running for 5.342)
-09:36:03.624 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-09:36:03.851 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-09:36:04.030 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-09:36:04.046 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-09:38:03.281 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 11160 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-09:38:03.287 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-09:38:06.826 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.982 seconds (JVM running for 7.194)
-09:38:07.188 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-09:38:07.487 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-09:40:23.889 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-09:40:24.131 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-09:41:04.165 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 19052 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-09:41:04.172 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-09:41:07.911 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.221 seconds (JVM running for 5.859)
-09:41:08.288 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-09:41:08.737 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-09:42:53.880 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-09:42:53.896 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-09:46:16.846 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16296 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-09:46:16.852 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-09:46:20.310 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.927 seconds (JVM running for 5.706)
-09:46:20.701 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-09:46:20.883 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-09:46:21.038 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-09:46:21.055 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-09:49:55.968 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 9784 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-09:49:55.973 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-09:49:59.266 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.727 seconds (JVM running for 5.454)
-09:49:59.584 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-09:49:59.769 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-09:49:59.916 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-09:49:59.932 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-09:50:23.290 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16708 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-09:50:23.299 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-09:50:26.645 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.792 seconds (JVM running for 5.417)
-09:50:26.987 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-09:50:27.186 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-09:50:27.360 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-09:50:27.376 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-09:50:57.953 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 16160 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-09:50:57.960 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-09:51:01.624 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.211 seconds (JVM running for 5.975)
-09:51:02.011 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-09:51:02.279 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-09:51:02.504 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-09:51:02.526 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-10:00:12.702 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 6016 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-10:00:12.708 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-10:00:15.985 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.742 seconds (JVM running for 5.26)
-10:00:16.342 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-10:00:16.562 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-10:21:55.701 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 15120 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-10:21:55.707 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-10:21:59.360 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.047 seconds (JVM running for 5.346)
-10:21:59.719 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-10:22:00.020 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-10:22:29.446 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-10:22:29.458 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-10:24:35.379 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 12736 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-10:24:35.383 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-10:24:38.708 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.684 seconds (JVM running for 5.003)
-10:24:39.131 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-10:24:39.374 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-10:24:40.118 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-10:24:40.133 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-10:27:26.481 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 7716 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-10:27:26.487 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-10:27:31.032 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 4.94 seconds (JVM running for 5.955)
-10:27:31.325 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-10:27:31.501 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-10:27:31.949 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-10:27:31.980 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-10:27:32.033 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-10:27:32.259 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-10:27:37.066 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 14432 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-10:27:37.071 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-10:27:40.067 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.37 seconds (JVM running for 4.747)
-10:27:40.315 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-10:27:40.530 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-10:27:41.438 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-10:27:41.450 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-10:28:12.357 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 17884 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-10:28:12.362 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-10:28:15.031 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.054 seconds (JVM running for 4.285)
-10:28:15.259 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-10:28:15.436 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-10:28:15.741 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-10:28:15.755 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
-10:38:57.781 [main] INFO  c.y.g.TestMapper - [logStarting,55] - Starting TestMapper on YuChen with PID 17612 (started by yuche in D:\Files\JavaProject\yuchen-generator)
-10:38:57.789 [main] INFO  c.y.g.TestMapper - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
-10:39:01.127 [main] INFO  c.y.g.TestMapper - [logStarted,61] - Started TestMapper in 3.797 seconds (JVM running for 5.384)
-10:39:01.452 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
-10:39:01.694 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
-10:39:33.596 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
-10:39:33.617 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+09:09:35.124 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 12596 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+09:09:35.133 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+09:09:36.220 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+09:09:36.223 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:09:36.223 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+09:09:36.227 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+09:09:36.228 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:09:36.229 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:09:36.239 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+09:09:36.398 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:09:37.626 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+09:09:37.643 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 3.018 seconds (JVM running for 4.419)
+09:13:34.377 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:13:34.467 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+09:14:37.764 [http-nio-8080-exec-6] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+09:14:37.801 [http-nio-8080-exec-6] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:13:00.249 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+10:13:00.260 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+10:13:08.855 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 9684 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+10:13:08.860 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:13:09.821 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:13:09.821 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:13:09.822 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+10:13:09.823 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+10:13:09.823 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:13:09.823 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:13:09.828 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+10:13:09.912 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:13:10.963 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:13:10.982 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.641 seconds (JVM running for 3.689)
+10:13:17.288 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:13:17.370 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:13:17.470 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:22:53.343 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+10:22:53.354 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+10:23:03.441 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 4516 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+10:23:03.445 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:23:04.732 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:23:04.733 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:23:04.733 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+10:23:04.734 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+10:23:04.735 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:23:04.735 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:23:04.738 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+10:23:04.838 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:23:06.031 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:23:06.054 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 3.167 seconds (JVM running for 4.169)
+10:23:09.704 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:23:09.789 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:23:09.894 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:46:47.917 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+10:46:47.938 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+10:46:54.473 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 9672 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+10:46:54.479 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:46:55.445 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:46:55.446 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:46:55.446 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+10:46:55.447 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+10:46:55.447 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:46:55.448 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:46:55.450 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+10:46:55.532 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:46:56.853 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:46:56.878 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.873 seconds (JVM running for 3.827)
+10:47:00.694 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:47:00.821 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:47:00.932 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:47:51.570 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+10:47:51.580 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+10:47:58.498 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 9480 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+10:47:58.504 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:47:59.950 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:47:59.951 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:47:59.952 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+10:47:59.954 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+10:47:59.954 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:47:59.955 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:47:59.959 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+10:48:00.105 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:48:01.392 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:48:01.414 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 3.426 seconds (JVM running for 4.755)
+10:48:05.329 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:48:05.458 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:48:05.563 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:48:48.103 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+10:48:48.112 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+10:48:54.655 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 14128 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+10:48:54.659 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:48:55.572 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:48:55.572 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:48:55.573 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+10:48:55.574 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+10:48:55.574 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:48:55.575 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:48:55.577 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+10:48:55.672 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:48:56.605 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:48:56.625 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.376 seconds (JVM running for 3.371)
+10:49:04.848 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:49:04.978 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:49:05.087 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:58:35.406 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+10:58:35.414 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+10:58:41.393 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 16828 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+10:58:41.396 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:58:42.426 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:58:42.427 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:58:42.427 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+10:58:42.428 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+10:58:42.428 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:58:42.436 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:58:42.439 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+10:58:42.510 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:58:43.503 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:58:43.523 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.478 seconds (JVM running for 3.526)
+10:58:46.677 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:58:46.758 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:58:46.841 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+10:59:17.962 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+10:59:17.970 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+10:59:23.766 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 9024 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+10:59:23.770 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+10:59:24.753 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+10:59:24.753 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:59:24.754 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+10:59:24.755 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+10:59:24.755 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:59:24.755 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:59:24.758 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+10:59:24.835 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:59:25.726 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+10:59:25.744 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.321 seconds (JVM running for 3.15)
+10:59:28.372 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:59:28.458 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+10:59:28.545 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:01:03.903 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:01:03.910 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:01:09.480 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 17144 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:01:09.484 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:01:10.314 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:01:10.315 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:01:10.315 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:01:10.316 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:01:10.316 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:01:10.316 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:01:10.318 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:01:10.396 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:01:11.278 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:01:11.295 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.163 seconds (JVM running for 2.996)
+11:01:14.749 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:01:14.830 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:01:14.932 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:02:46.065 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:02:46.073 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:02:52.563 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 5408 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:02:52.566 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:02:53.453 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:02:53.453 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:02:53.454 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:02:53.455 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:02:53.455 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:02:53.455 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:02:53.457 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:02:53.534 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:02:54.418 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:02:54.436 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.23 seconds (JVM running for 3.385)
+11:03:03.770 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:03:03.922 [http-nio-8080-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:03:04.033 [http-nio-8080-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:03:40.066 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:03:40.072 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:03:46.386 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 6372 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:03:46.391 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:03:47.320 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:03:47.320 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:03:47.320 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:03:47.321 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:03:47.322 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:03:47.322 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:03:47.324 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:03:47.408 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:03:48.359 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:03:48.380 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.389 seconds (JVM running for 3.286)
+11:03:51.551 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:03:51.635 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:03:51.723 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:04:35.575 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:04:35.585 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:04:41.496 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 12356 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:04:41.501 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:04:42.429 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:04:42.430 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:04:42.430 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:04:42.431 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:04:42.431 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:04:42.432 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:04:42.434 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:04:42.520 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:04:43.426 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:04:43.445 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.334 seconds (JVM running for 3.426)
+11:04:54.145 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:04:54.228 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:04:54.314 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:05:36.193 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:05:36.198 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:05:42.019 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 6936 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:05:42.024 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:05:42.897 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:05:42.897 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:05:42.897 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:05:42.898 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:05:42.899 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:05:42.899 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:05:42.901 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:05:42.978 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:05:43.872 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:05:43.890 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.232 seconds (JVM running for 3.117)
+11:05:48.039 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:05:48.119 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:05:48.246 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:07:49.890 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:07:49.904 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:07:56.232 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 9760 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:07:56.236 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:07:57.280 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:07:57.281 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:07:57.281 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:07:57.283 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:07:57.283 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:07:57.283 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:07:57.288 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:07:57.381 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:07:58.363 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:07:58.383 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.56 seconds (JVM running for 3.575)
+11:08:01.155 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:08:01.288 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:08:01.390 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:09:03.629 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:09:03.639 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:09:09.351 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 17320 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:09:09.355 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:09:10.382 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:09:10.382 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:09:10.382 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:09:10.384 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:09:10.385 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:09:10.385 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:09:10.389 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:09:10.469 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:09:11.576 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:09:11.595 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.599 seconds (JVM running for 3.419)
+11:09:13.916 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:09:14.061 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:09:14.164 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:09:34.878 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:09:34.886 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:09:41.127 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 3520 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:09:41.131 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:09:42.042 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:09:42.043 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:09:42.043 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:09:42.044 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:09:42.044 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:09:42.044 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:09:42.047 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:09:42.133 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:09:43.053 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:09:43.073 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.371 seconds (JVM running for 3.335)
+11:10:03.099 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:10:03.292 [http-nio-8080-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:10:03.424 [http-nio-8080-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:10:31.126 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:10:31.132 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:10:37.174 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 5260 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:10:37.177 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:10:38.074 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:10:38.075 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:10:38.075 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:10:38.076 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:10:38.076 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:10:38.076 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:10:38.079 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:10:38.168 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:10:39.084 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:10:39.110 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.373 seconds (JVM running for 3.264)
+11:10:45.215 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:10:45.323 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:10:45.423 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:13:01.970 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:13:01.980 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:13:07.645 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 16452 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:13:07.648 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:13:08.504 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:13:08.504 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:13:08.505 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:13:08.506 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:13:08.506 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:13:08.506 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:13:08.508 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:13:08.590 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:13:09.534 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:13:09.552 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.262 seconds (JVM running for 3.055)
+11:13:12.395 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:13:12.515 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:13:12.620 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:14:06.965 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:14:06.978 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:14:12.783 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 16184 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:14:12.786 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:14:13.634 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:14:13.635 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:14:13.635 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:14:13.636 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:14:13.636 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:14:13.636 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:14:13.639 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:14:13.718 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:14:14.621 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:14:14.642 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.205 seconds (JVM running for 3.048)
+11:14:18.347 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:14:18.478 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:14:18.577 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:15:22.172 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:15:22.186 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:15:28.343 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 16044 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:15:28.348 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:15:29.219 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:15:29.219 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:15:29.219 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:15:29.220 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:15:29.221 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:15:29.221 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:15:29.223 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:15:29.300 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:15:30.199 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:15:30.216 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.324 seconds (JVM running for 3.194)
+11:15:36.381 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:15:36.501 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:15:36.614 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:15:49.583 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:15:49.588 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:15:55.778 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 4752 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:15:55.783 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:15:56.643 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:15:56.643 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:15:56.643 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:15:56.644 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:15:56.645 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:15:56.645 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:15:56.647 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:15:56.732 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:15:57.667 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:15:57.685 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.307 seconds (JVM running for 3.423)
+11:16:00.213 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:16:00.318 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:16:00.422 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:16:23.209 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:16:23.214 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:16:30.072 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 13936 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:16:30.081 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:16:31.005 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:16:31.006 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:16:31.006 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:16:31.007 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:16:31.007 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:16:31.007 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:16:31.010 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:16:31.084 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:16:32.028 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:16:32.047 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.741 seconds (JVM running for 3.905)
+11:16:32.111 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:16:32.196 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:16:32.284 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:16:46.151 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:16:46.156 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:16:52.529 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 16244 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:16:52.535 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:16:53.587 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:16:53.588 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:16:53.588 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:16:53.589 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:16:53.590 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:16:53.590 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:16:53.594 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:16:53.674 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:16:54.878 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:16:54.903 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.961 seconds (JVM running for 3.891)
+11:17:50.229 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:17:50.369 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:17:50.476 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:18:29.448 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:18:29.464 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:18:36.071 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 13208 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:18:36.075 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:18:37.041 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:18:37.042 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:18:37.042 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:18:37.045 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:18:37.046 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:18:37.046 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:18:37.049 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:18:37.138 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:18:38.082 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:18:38.111 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.512 seconds (JVM running for 3.722)
+11:19:01.821 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:19:01.948 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:19:02.073 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:22:20.929 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:22:20.937 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:22:26.804 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 8452 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:22:26.808 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:22:27.695 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:22:27.696 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:22:27.696 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:22:27.698 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:22:27.698 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:22:27.698 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:22:27.701 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:22:27.781 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:22:28.822 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:22:28.843 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.443 seconds (JVM running for 3.551)
+11:22:30.519 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:22:30.657 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:22:30.757 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:23:09.252 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:23:09.261 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:23:15.342 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 15952 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:23:15.347 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:23:16.344 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:23:16.344 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:23:16.345 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:23:16.346 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:23:16.346 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:23:16.346 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:23:16.350 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:23:16.423 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:23:17.376 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:23:17.395 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.485 seconds (JVM running for 3.541)
+11:23:21.674 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:23:21.805 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:23:21.904 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:24:37.922 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:24:37.929 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:24:42.203 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 16196 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:24:42.208 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:24:43.600 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:24:43.601 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:24:43.601 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:24:43.604 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:24:43.604 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:24:43.604 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:24:43.608 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:24:43.718 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:24:44.674 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:24:44.694 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.972 seconds (JVM running for 3.957)
+11:24:47.924 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:24:48.085 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:24:48.202 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:25:32.537 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:25:32.555 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:25:36.041 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 15932 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:25:36.046 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:25:37.175 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:25:37.176 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:25:37.176 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:25:37.177 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:25:37.177 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:25:37.177 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:25:37.180 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:25:37.264 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:25:38.219 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:25:38.237 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.656 seconds (JVM running for 3.85)
+11:25:52.600 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:25:52.760 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:25:52.876 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+11:26:07.712 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+11:26:07.721 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+11:26:10.827 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 2660 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+11:26:10.831 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+11:26:11.715 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+11:26:11.715 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:26:11.715 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11:26:11.717 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+11:26:11.717 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:26:11.717 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:26:11.719 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+11:26:11.801 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:26:12.744 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+11:26:12.774 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.321 seconds (JVM running for 3.22)
+11:26:18.963 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:26:19.096 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+11:26:19.211 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:37:57.640 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:37:57.648 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:38:04.343 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 4244 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:38:04.346 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:38:05.217 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:38:05.217 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:38:05.217 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:38:05.218 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+16:38:05.219 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:38:05.219 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:38:05.222 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:38:05.303 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:38:06.211 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:38:06.233 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.274 seconds (JVM running for 3.405)
+16:38:12.437 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:38:12.529 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:38:12.627 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:40:13.239 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:40:13.246 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:40:19.865 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 14924 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:40:19.869 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:40:20.822 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:40:20.823 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:40:20.823 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:40:20.824 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+16:40:20.824 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:40:20.824 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:40:20.827 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:40:20.914 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:40:22.045 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:40:22.064 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.569 seconds (JVM running for 3.373)
+16:40:24.282 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:40:24.368 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:40:24.470 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:41:00.221 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:41:00.231 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:41:04.521 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 7312 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:41:04.524 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:41:05.445 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:41:05.446 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:41:05.446 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:41:05.447 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+16:41:05.447 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:41:05.447 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:41:05.450 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:41:05.535 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:41:06.525 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:41:06.547 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.317 seconds (JVM running for 4.718)
+16:41:13.904 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:41:51.435 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 19996 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:41:51.439 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:41:52.285 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:41:52.285 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:41:52.285 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:41:52.286 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+16:41:52.287 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:41:52.287 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:41:52.289 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:41:52.368 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:41:53.247 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:41:53.267 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.219 seconds (JVM running for 2.993)
+16:41:55.481 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:42:47.666 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 15568 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:42:47.670 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:42:48.513 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:42:48.514 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:42:48.514 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:42:48.515 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+16:42:48.515 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:42:48.516 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:42:48.518 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:42:48.597 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:42:49.475 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:42:49.492 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.189 seconds (JVM running for 2.993)
+16:42:53.093 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:42:53.175 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:42:53.292 [http-nio-8080-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:50:59.645 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+16:50:59.659 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+16:51:05.506 [main] INFO  c.y.g.YuChenGenApplication - [logStarting,55] - Starting YuChenGenApplication on YuChen with PID 1908 (D:\Files\JavaProject\yuchen-generator\target\classes started by yuche in D:\Files\JavaProject\yuchen-generator)
+16:51:05.511 [main] INFO  c.y.g.YuChenGenApplication - [logStartupProfileInfo,651] - No active profile set, falling back to default profiles: default
+16:51:06.407 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:51:06.408 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:51:06.408 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+16:51:06.409 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+16:51:06.409 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:51:06.409 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:51:06.412 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+16:51:06.496 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:51:07.408 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:51:07.432 [main] INFO  c.y.g.YuChenGenApplication - [logStarted,61] - Started YuChenGenApplication in 2.402 seconds (JVM running for 3.241)
+16:51:09.493 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:51:09.578 [http-nio-8080-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:51:09.666 [http-nio-8080-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+18:06:22.248 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+18:06:22.260 [SpringContextShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.

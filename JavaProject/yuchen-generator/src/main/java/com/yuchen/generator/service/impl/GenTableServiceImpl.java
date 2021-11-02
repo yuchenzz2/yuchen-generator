@@ -4,13 +4,13 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
+import cn.hutool.core.util.ReUtil;
+import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yuchen.generator.domain.GenTable;
 import com.yuchen.generator.domain.GenTableColumn;
@@ -118,10 +118,8 @@ public class GenTableServiceImpl extends ServiceImpl<GenTableMapper, GenTable> i
         String options = JSON.toJSONString(genTable.getParams());
         genTable.setOptions(options);
         int row = genTableMapper.updateGenTable(genTable);
-        if (row > 0)
-        {
-            for (GenTableColumn cenTableColumn : genTable.getColumns())
-            {
+        if (row > 0) {
+            for (GenTableColumn cenTableColumn : genTable.getColumns()) {
                 genTableColumnMapper.updateGenTableColumn(cenTableColumn);
             }
         }
@@ -178,29 +176,35 @@ public class GenTableServiceImpl extends ServiceImpl<GenTableMapper, GenTable> i
      * @return 预览数据列表
      */
     @Override
-    public Map<String, String> previewCode(Long tableId) {
-        Map<String, String> dataMap = new LinkedHashMap<>();
+    public List<Map<String, Object>> previewCode(Long tableId) {
         // 查询表信息
         GenTable table = genTableMapper.selectGenTableById(tableId);
         // 设置主子表信息
         setSubTable(table);
         // 设置主键列信息
         setPkColumn(table);
+
         VelocityInitializer.initVelocity();
 
         VelocityContext context = VelocityUtils.prepareContext(table);
 
+        ArrayList<Map<String, Object>> genMap = new ArrayList<>();
         // 获取模板列表
         List<String> templates = VelocityUtils.getTemplateList(table.getTplCategory());
-        for (String template : templates)
-        {
+        for (String template : templates) {
+            Map<String, Object> map = new HashMap<>();
             // 渲染模板
             StringWriter sw = new StringWriter();
             Template tpl = Velocity.getTemplate(template, "UTF8");
             tpl.merge(context, sw);
-            dataMap.put(template, sw.toString());
+            map.put("content", sw.toString());
+            String fileName = VelocityUtils.getFileName(template, table);
+            System.out.println(fileName);
+            String[] split = StrUtil.split(fileName, "/");
+            map.put("name", split[split.length-1]);
+            genMap.add(map);
         }
-        return dataMap;
+        return genMap;
     }
 
     /**
@@ -409,6 +413,7 @@ public class GenTableServiceImpl extends ServiceImpl<GenTableMapper, GenTable> i
             }
         }
     }
+
     /**
      * 设置主子表信息
      * 

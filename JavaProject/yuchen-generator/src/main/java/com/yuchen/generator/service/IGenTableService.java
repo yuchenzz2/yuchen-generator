@@ -80,7 +80,7 @@ public interface IGenTableService extends IService<GenTable> {
      * @param tableId 表编号
      * @return 预览数据列表
      */
-    public Map<String, String> previewCode(Long tableId);
+    public List<Map<String, Object>> previewCode(Long tableId);
 
     /**
      * 生成代码（下载方式）

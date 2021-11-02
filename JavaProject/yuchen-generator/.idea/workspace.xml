@@ -413,100 +413,6 @@
       <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../code-generator/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../code-generator/yuchen-generator/src/main/java/com/yuchen/generator/builder/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/image_Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/error.2021-10-28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/error.2021-10-29.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.2021-10-28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.2021-10-29.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.2021-10-31.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/YuChenGenApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/config/GenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/controller/GenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/domain/GenTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/domain/GenTableColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/mapper/GenTableColumnMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/mapper/GenTableMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/mapper/QueryTableInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/IGenTableColumnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/IGenTableService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/impl/GenTableColumnServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/impl/GenTableServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/AjaxResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/GenConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/GenUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/HttpStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/VelocityInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/util/VelocityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GenTableColumnMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GenTableMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/controller.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/domain.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/mapper.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/service.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/serviceImpl.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/java/sub-domain.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/js/api.js.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/sql/sql.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/vue/index-tree.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/vue/index.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/vm/xml/mapper.xml.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuchen/generator/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/YuChenGenApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/config/GenConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/controller/GenController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/domain/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/domain/GenTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/domain/GenTableColumn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/mapper/GenTableColumnMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/mapper/GenTableMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/mapper/QueryTableInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/IGenTableColumnService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/IGenTableService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/impl/GenTableColumnServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/impl/GenTableServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/AjaxResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/GenConstants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/GenUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/HttpStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/VelocityInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/util/VelocityUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/GenTableColumnMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/GenTableMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/controller.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/domain.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/mapper.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/service.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/serviceImpl.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/java/sub-domain.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/js/api.js.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/sql/sql.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/vue/index-tree.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/vue/index.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vm/xml/mapper.xml.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/yuchen/generator/TestMapper.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-admin/build/build.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-admin/src/styles/transition.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue-project/yygh-admin/src/utils/auth.js" afterDir="false" />
@@ -681,6 +587,23 @@
       <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/npmdemo/node_modules/jquery/src/data/var/dataPriv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/npmdemo/node_modules/jquery/src/deprecated/ajax-event-alias.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yygh/yygh-vue/npmdemo/node_modules/jquery/src/manipulation/getAll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ruoyi-gen/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ruoyi-gen/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ruoyi-gen/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ruoyi-gen/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/controller/GenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/controller/GenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/domain/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/domain/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/IGenTableColumnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/IGenTableColumnService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/IGenTableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/IGenTableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/impl/GenTableColumnServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/impl/GenTableColumnServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/impl/GenTableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuchen/generator/service/impl/GenTableServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/vm/java/domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/vm/java/domain.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuchen/generator/config/GenConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/config/GenConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuchen/generator/controller/GenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/controller/GenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/IGenTableService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/IGenTableService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/impl/GenTableColumnServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/impl/GenTableColumnServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/impl/GenTableServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuchen/generator/service/impl/GenTableServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vm/java/domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vm/java/domain.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -746,6 +669,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -871,8 +795,20 @@
       <workItem from="1635735409606" duration="647000" />
       <workItem from="1635736078346" duration="183000" />
       <workItem from="1635736278453" duration="3786000" />
-      <workItem from="1635747291252" duration="71000" />
+      <workItem from="1635747291252" duration="401000" />
+      <workItem from="1635752468163" duration="1390000" />
+      <workItem from="1635761190178" duration="39000" />
+      <workItem from="1635761270790" duration="1018000" />
+      <workItem from="1635815159147" duration="11291000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1635747444104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635747444104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -889,7 +825,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="yuchen-generator" />
+                        <option value="main/yuchen-generator" />
                       </list>
                     </value>
                   </entry>
@@ -923,7 +859,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="first test" />
-    <option name="LAST_COMMIT_MESSAGE" value="first test" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yuchen_generator$TestMapper_testTableColumn.ic" NAME="TestMapper.testTableColumn Coverage Results" MODIFIED="1635494596670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -3,6 +3,7 @@ package com.yuchen.generator.service.impl;
 import java.util.List;
 
 import cn.hutool.core.convert.Convert;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yuchen.generator.domain.GenTableColumn;
 import com.yuchen.generator.mapper.GenTableColumnMapper;
@@ -30,9 +31,13 @@ public class GenTableColumnServiceImpl extends ServiceImpl<GenTableColumnMapper,
      */
 	@Override
 	public List<GenTableColumn> selectGenTableColumnListByTableId(Long tableId) {
-	    return genTableColumnMapper.selectGenTableColumnListByTableId(tableId);
+		return genTableColumnMapper.selectList(
+				new QueryWrapper<GenTableColumn>().lambda()
+						.eq(GenTableColumn::getTableId, tableId)
+		);
+	    //return genTableColumnMapper.selectGenTableColumnListByTableId(tableId);
 	}
-	
+
     /**
      * 新增业务字段
      * 

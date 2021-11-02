@@ -7,20 +7,14 @@ import java.util.Map;
 import javax.servlet.http.HttpServletResponse;
 
 import cn.hutool.core.convert.Convert;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.yuchen.generator.domain.GenTable;
 import com.yuchen.generator.domain.GenTableColumn;
 import com.yuchen.generator.util.AjaxResult;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import com.yuchen.generator.service.IGenTableColumnService;
 import com.yuchen.generator.service.IGenTableService;
 
@@ -29,6 +23,7 @@ import com.yuchen.generator.service.IGenTableService;
  */
 @RequestMapping("/gen")
 @RestController
+@CrossOrigin
 public class GenController {
 
     @Autowired
@@ -55,11 +50,11 @@ public class GenController {
      * 修改代码生成业务
      */
     //@RequiresPermissions("tool:gen:query")
-    @GetMapping(value = "/{talbleId}")
-    public AjaxResult getInfo(@PathVariable Long talbleId) {
-        GenTable table = genTableService.selectGenTableById(talbleId);
+    @GetMapping(value = "/{tableId}")
+    public AjaxResult getInfo(@PathVariable Long tableId) {
+        GenTable table = genTableService.selectGenTableById(tableId);
         List<GenTable> tables = genTableService.selectGenTableAll();
-        List<GenTableColumn> list = genTableColumnService.selectGenTableColumnListByTableId(talbleId);
+        List<GenTableColumn> list = genTableColumnService.selectGenTableColumnListByTableId(tableId);
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("info", table);
         map.put("rows", list);
@@ -83,11 +78,15 @@ public class GenController {
     /**
      * 查询数据表字段列表
      */
-    @GetMapping(value = "/column/{talbleId}")
+    @GetMapping(value = "/column/{tableName}")
     //public TableDataInfo columnList(Long tableId)
-    public AjaxResult columnList(Long tableId) {
+    public AjaxResult columnList(@PathVariable String tableName) {
         //TableDataInfo dataInfo = new TableDataInfo();
-        List<GenTableColumn> list = genTableColumnService.selectGenTableColumnListByTableId(tableId);
+        GenTable table = genTableService.getBaseMapper().selectOne(
+                new QueryWrapper<GenTable>().lambda()
+                        .eq(GenTable::getTableName, tableName)
+        );
+        List<GenTableColumn> list = genTableColumnService.selectGenTableColumnListByTableId(table.getTableId());
         //dataInfo.setRows(list);
         //dataInfo.setTotal(list.size());
         return AjaxResult.success(list);
@@ -134,10 +133,15 @@ public class GenController {
      * 预览代码
      */
     //@RequiresPermissions("tool:gen:preview")
-    @GetMapping("/preview/{tableId}")
-    public AjaxResult preview(@PathVariable("tableId") Long tableId) throws IOException {
-        Map<String, String> dataMap = genTableService.previewCode(tableId);
-        return AjaxResult.success(dataMap);
+    @GetMapping("/preview/{tableName}")
+    public AjaxResult preview(@PathVariable("tableName") String tableName) throws IOException {
+        List<GenTable> genTables = genTableService.getBaseMapper().selectList(
+                new QueryWrapper<GenTable>().lambda()
+                        .eq(GenTable::getTableName, tableName)
+        );
+        Long tableId = genTables.get(0).getTableId();
+        List<Map<String, Object>> genMap = genTableService.previewCode(tableId);
+        return AjaxResult.success(genMap);
     }
 
     /**
